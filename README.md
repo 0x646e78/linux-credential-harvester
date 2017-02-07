@@ -2,11 +2,12 @@
 
 A script to harvest credentials from Linux systems.
 
-It is also an experiment in using a yaml config file and bash4+ string
-manipulation, although I will probably turn the efforts into a POSIX 
-compatable script once I get bored with this, as that's not the most 
-friendly requirement when on an engagement.
-
+It is also an experiment in using a yaml config file (my lesson - 
+don't do it. It makes for a pretty messy looking script and once you 
+get into nested arrays etc you're in for a world of pain) and bash4+
+string manipulation, although I will probably turn the efforts into a
+POSIX compatable script once I get bored with this, as that's not the
+most friendly requirement when on an engagement.
 
 Drop it
 -------
