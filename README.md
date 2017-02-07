@@ -7,7 +7,6 @@ manipulation, although I will probably turn the efforts into a POSIX
 compatable script once I get bored with this, as that's not the most 
 friendly requirement when on an engagement.
 
-The file `definitions.yml` contains the location of known credential files.
 
 Drop it
 -------
@@ -17,6 +16,21 @@ system to be audited.  For best results a root account is recommended,
 however the script will grab whatever your user has access to. I highly
 recommend not trusting me and reading through the bash script before
 running it (I pinky swear I didn't try to root your system or troll you).
+
+Ruleset
+-------
+
+The file `definitions.yml` contains the location of known credential files,
+password locations. So far it's pretty limited and covers:
+
+- /etc/passwd
+- /etc/shadow
+- ssh keys
+- gpg keys
+- aws config files
+- docker registry passwords
+
+If you add rules I'd love to get pull requests.
 
 Run it
 ------
