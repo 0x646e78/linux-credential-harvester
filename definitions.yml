@@ -1,0 +1,9 @@
+file:
+  docker: /{root,home/*}/.docker/config.json
+  passwd: /etc/{passwd,shadow}
+  aws: /{root,home/*}/.aws/{credentials,config}
+directory:
+  ssh_dir: /{root,home/*}/.ssh
+  gnupg_dir: /{root,home/*}/.gnupg
+env:
+  todo: todo
