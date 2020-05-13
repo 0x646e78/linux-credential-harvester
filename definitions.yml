@@ -1,9 +1,11 @@
 file:
+  aws: /{root,home/*}/.aws/{credentials,config}
   docker: /{root,home/*}/.docker/config.json
   passwd: /etc/{passwd,shadow}
-  aws: /{root,home/*}/.aws/{credentials,config}
 directory:
-  ssh_dir: /{root,home/*}/.ssh
   gnupg_dir: /{root,home/*}/.gnupg
+  ssh_dir: /{root,home/*}/.ssh
 env:
   todo: todo
+sqlite:
+  recon-ng: /{root,home/*/.recon-ng/keys.db}
