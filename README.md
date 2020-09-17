@@ -1,5 +1,7 @@
 # linux-credential-harvester
 
+UNMAINTAINED - Here for historical purposes.
+
 A script to harvest credentials from Linux systems.
 
 It is also an experiment in using a yaml config file (my lesson - 
